@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class Cricketer{
-    public:
+public:
     char name; 
     int age;
     int noOfTestMatches;
@@ -29,5 +29,4 @@ int main(){
         cout<<cricketers[i].averageScore<<endl;
 
     }
-
 }
